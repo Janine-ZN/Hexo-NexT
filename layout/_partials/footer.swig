@@ -39,7 +39,7 @@
 
 {% if theme.footer.powered.enable %}
   <div class="powered-by">{#
-  #}{{ __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}{#
+  #}{{ __('footer.powered', '<a class="theme-link" href="https://github.com/theme-next/hexo-theme-next" rel="external nofollow">Hexo</a>') }}{#
   #}{% if theme.footer.powered.version %} v{{ hexo_env('version') }}{% endif %}{#
  #}</div>
 {% endif %}
